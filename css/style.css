@@ -1,0 +1,467 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font: 18px "globerthin_free", sans-serif;
+    letter-spacing: -0.025em;
+
+}
+
+@font-face {
+    font-family: "globerthin_free";
+    src: url("../fonts/glober_thin_free.eot");
+    src: url("../fonts/glober_thin_free.eot?#iefix") format("embedded-opentype"), url("../fonts/glober_thin_free.woff") format("woff"), url("../fonts/glober_thin_free.ttf") format("truetype"), url("../fonts/glober_thin_free.svg#globerthin_free") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "globersemibold_free";
+    src: url("../fonts/glober_semibold_free.eot");
+    src: url("../fonts/glober_semibold_free.eot?#iefix") format("embedded-opentype"), url("../fonts/glober_semibold_free.woff") format("woff"), url("../fonts/glober_semibold_free.ttf") format("truetype"), url("../fonts/glober_semibold_free.svg#globersemibold_free") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+#slide-1,
+#slide-2,
+#slide-3,
+#slide-4 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 650px;
+    position: relative;
+}
+
+#slide-2 {
+    background-color: #5c5cd6;
+}
+
+#slide-4 {
+    background-color: #cc3333;
+    min-height: 720px;
+}
+
+#slide-2,
+#slide-4 {
+    color: #fff;
+}
+
+#slide-2 a,
+#slide-4 a {
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header-pri {
+    position: fixed;
+    top: 0;
+    padding: 30px 40px 0 40px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.logo-pri {
+    float: left;
+    width: 96px;
+    height: 153px;
+}
+
+.nav {
+    float: right;
+    margin-top: 75px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 36px;
+}
+
+.nav li a {
+    font: 18px "globersemibold_free", sans-serif;
+}
+
+.nav li a:hover {
+    border-bottom: 2px solid black;
+}
+
+.main-page-content {
+    width: 770px;
+    position: absolute;
+    top: 200px;
+    right: 30px;
+    letter-spacing: -0.04em;
+
+}
+
+h1 {
+    font: normal 48px "globersemibold_free", sans-serif;
+
+}
+
+h1 span {
+    font-family: "globerthin_free", sans-serif;
+}
+
+.main-page-content h2 {
+    font-weight: normal;
+}
+
+.scroll {
+    position: absolute;
+    bottom: 10%;
+    width: 770px;
+    right: 30px;
+}
+
+.scroll img {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.page-content {
+    position: absolute;
+    top: 200px;
+    width: 82%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.clients li {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 12.99%;
+}
+
+.nissan {
+    width: 13.5968379%;
+}
+
+.Nestle {
+    width: 9.407114624%;
+}
+
+.abinbev {
+    width: 21.106719367%;
+}
+
+.purina {
+    width: 16.91699604%;
+    margin-top: 32px;
+}
+
+.request-button {
+    display: inline-block;
+    padding: 11px 30px 9px 30px;
+    border: 1px solid #919191;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    border-radius: 2px;
+}
+
+.white {
+    color: #fff;
+    border: 1px solid #a2a2e8;
+}
+
+.pri-expertise li {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 12%;
+    width: 16%;
+}
+
+.text-expertise {
+    width: 158px;
+    margin-top: 18px;
+}
+
+.pri-project li {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%;
+    width: 30%;
+}
+
+.text-project {
+    margin-top: 18px;
+}
+
+li:first-child {
+    margin-left: 0;
+}
+
+.pri-project img {
+    border: 3px solid #fff
+}
+
+.page-content h3 {
+    font: normal 24px "globersemibold_free", sans-serif;
+    margin: 18px 0 6px 0;
+}
+
+.page-content h1 {
+    margin: 20px 0;
+}
+
+p,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0
+}
+
+@media (max-width: 900px) {
+    #slide-2 {
+        height: 800px;
+    }
+    #slide-3,
+    #slide-4 {
+        height: 1100px;
+    }
+
+    .main-page-content h1 {
+        font: normal 28px "globersemibold_free", sans-serif;
+
+    }
+
+    h1 span {
+        font-family: "globerthin_free", sans-serif;
+    }
+
+    .main-page-content h2 {
+        font-weight: normal;
+        font-size: 18px;
+    }
+
+    .main-page-content {
+        width: 475px;
+    }
+
+    .scroll {
+        width: 475px;
+    }
+
+    .clients li {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .nissan {
+        width: 27.1936%;
+        margin-right: 35%;
+    }
+
+    .Nestle {
+        width: 18.8142%;
+        margin-left: 27%;
+    }
+
+    .abinbev {
+        width: 42.2134%;
+        margin-right: 14%;
+    }
+
+    .purina {
+        width: 33.8339%;
+        margin-top: 32px;
+    }
+
+    .pri-expertise li {
+        margin-left: 15%;
+        width: 25%;
+        margin-bottom: 30px;
+    }
+
+    .pri-project li {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 5%;
+        width: 45%;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 575px) {
+
+
+    #slide-2 {
+        height: 900px;
+    }
+
+    #slide-3 {
+        height: 1500px;
+    }
+
+    #slide-4 {
+        height: 1400px;
+    }
+
+    .page-header {
+        text-align: center;
+    }
+
+    .header-pri {
+        padding: 30px 0 0 0;
+        position: relative;
+    }
+
+    .logo-pri {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: 100px;
+
+    }
+
+    .main-page-content {
+        top: 280px;
+    }
+
+    .page-content {
+        top: 50px;
+    }
+
+    .page-header {
+        margin-bottom: 100px;
+    }
+
+    .nav {
+        width: 100%;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav li {
+        display: inline-block;
+        width: 25%;
+        margin-left: 0;
+    }
+
+    .nav li:first-child {
+        margin-left: 0;
+    }
+
+    .main-page-content {
+        width: 365px;
+        position: relative;
+        margin: 0 auto;
+        right: 0;
+    }
+
+    .main-page-content h1 {
+        font: normal 24px "globersemibold_free", sans-serif;
+
+    }
+
+    h1 span {
+        font-family: "globerthin_free", sans-serif;
+    }
+
+    .main-page-content h2 {
+        font-weight: normal;
+        font-size: 16px;
+    }
+
+    .scroll {
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 100px;
+    }
+
+    .clients li {
+        margin-left: 0;
+        display: block;
+        margin: 30px auto;
+
+    }
+
+    .nissan {
+        width: 172px;
+    }
+
+    .Nestle {
+        width: 119px;
+    }
+
+    .abinbev {
+        width: 267px;
+    }
+
+    .purina {
+        width: 214px;
+    }
+
+    img[src="img/purina.png"] {
+        margin-top: 35px;
+    }
+
+    .pri-expertise li {
+        margin-left: 0;
+        display: block;
+        margin: 30px auto;
+        width: 150px;
+
+    }
+
+    .pri-project li {
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .img-project {
+        margin: 0 auto;
+        width: 150px;
+    }
+
+    .text-project h3 {
+        text-align: center;
+    }
+
+    .text-project {
+        text-align: justify;
+    }
+
+
+}
